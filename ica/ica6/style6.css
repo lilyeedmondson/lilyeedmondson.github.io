@@ -22,6 +22,17 @@ body {
     padding: 0 20px;
     max-width: 980px;
   }
+  .row {
+    display: flex;
+  }
+  
+  .article {
+    flex: 50%;
+  }
+  .aside {
+    flex: 50%
+  }
+  
   
   nav {
     background-color: #000;
@@ -53,3 +64,4 @@ body {
   .feature {
       width: 200px;
   }
+
