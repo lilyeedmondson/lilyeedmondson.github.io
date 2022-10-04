@@ -13,8 +13,6 @@ align-items: center;
   }
 
 
-
-
 body{
   background-color: #98c1d9;
 }
@@ -41,6 +39,11 @@ h2{
   height: 100px;  */
   color: #533a7b;
 
+}
+
+.button1 {
+  float: left;
+  border: 1px solid green;
 }
   
 
