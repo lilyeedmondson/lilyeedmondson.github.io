@@ -30,36 +30,19 @@ body{
   
   }
 
-h2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* position: absolute;
-  top: 300px;
-  right: 20px;
-  width: 700px;
-  height: 100px;  */
-  color: #533a7b;
 
-}
 
-.button1 {
-  float: left;
-  border: 1px solid green;
-}
+
+
   
 
-  p {
-   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     position: relative;
-
-    color: #25171A
-  }
 
   nav {
     background-color: #6969B3;
     padding: 1em;
     position:sticky;
     top:0
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   nav ul {
@@ -68,6 +51,7 @@ h2{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   nav a {
@@ -94,4 +78,81 @@ h2{
 .container{
   display: flex;
   justify-content: center;
+
+}
+.personalitymain{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.personalitytitle{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.personalitytop{
+  display: flex;
+  justify-content: center;
+  
+}
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 700px;
+  height: 100px;   */
+  color: #4b244a;
+  font-size: xx-large;
+
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* position: absolute;
+  top: 300px;
+  right: 20px;
+  width: 700px;
+  height: 100px;  */
+  color: #533a7b;
+  font-size:large;
+}
+
+h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* position: absolute;
+  top: 300px;
+  right: 20px;
+  width: 700px;
+  height: 100px;  */
+  color: #25171A;
+  font-size:x-large;
+}
+
+h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+/* the word yellow on personality page*/
+
+
+p {
+   
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: relative;
+
+  color: #25171A
+}
+
+.resumerest{
+  margin: 5px;
 }
