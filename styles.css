@@ -27,22 +27,38 @@ img {
     img{
       height: 200px;
       width: 150px;
-  align-items: center;
+  align-items:center
     }
   }
 
 
 /* resume html */
 
+.resumemain{
+  display: flex;
+  justify-content: center;
+  text-align: right;
+ 
+
+}
+
+
+.resumepersonal{
+  text-align: center;
+  justify-content: center;
+  padding: .5%;
+
+}
 .resumerest{
-  margin: 5px;
+  margin: 3px;
+  text-align: left;
 }
 
 /* personality html */
 
 .personalitymain{
-  display: flex;
-  justify-content: center;
+  display:flex
+
   
 }
 
@@ -51,12 +67,14 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 
 }
 
 .personalitytop{
   display: flex;
   justify-content: center;
+
   
 }
    
