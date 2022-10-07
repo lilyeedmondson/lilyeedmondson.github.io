@@ -4,32 +4,36 @@ body{
   background-color: #98c1d9;
 }
 
+img {
+  margin: 15px;
+  padding: 5;
+  width: 300px;
+  height: 400px;
+}
+@media only screen and (max-width: 700px) {
+  img{
+    height: 200px;
+    width: 150px;
+align-items: center;
+  }
+}
+
 .homeB{
   display: flexbox;
   align-items: center;
-  justify-content: center;
-  text-align:center;
+  justify-content: right;
+  text-align: center;
 }
 
 .container{
   display: flex;
   justify-content: center;
+  
 
 }
 
-img {
-    margin: 15px;
-    padding: 5;
-    width: 300px;
-    height: 400px;
-  }
-  @media only screen and (max-width: 700px) {
-    img{
-      height: 200px;
-      width: 150px;
-  align-items:center
-    }
-  }
+
+
 
 
 /* resume html */
@@ -157,18 +161,7 @@ h5 {
 
 
   
-/* @media screen and (max-width: 700px) {
-  img{
-    height: auto;
-    display: table;
-  }
-} */
 
-
-
-
-
-/* the word yellow on personality page*/
 
 
 p {
