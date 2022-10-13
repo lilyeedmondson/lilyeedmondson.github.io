@@ -59,14 +59,43 @@
                             <br>
                             <br>
                             <h2> </h2>
-                            
+                            <button id="embarass">The Most Embarassing Picture of Me</button>
+ 
+                            <script>
+
+    
+                            function firstFunction() {
+                            alert("The first function executed successfully!");
+                                }
+     
+                            function secondFunction() {
+                            alert("SIKE");
+                                }
+     
+
+                            var btn = document.getElementById("embarass");
+     
+  
+                            btn.onclick = firstFunction;
+                            btn.onclick = secondFunction; 
+                            </script>
 
                             <br>
                             <br>
                             <br>
                             <br>
                         
-                        
+                        <h2>Want to read more about me?</h2>  
+                        <button id="clicker">Click Here!</button>
+
+                        <script>
+                            var clickerButton = document.getElementById("clicker");
+                            var onButtonClick = function() {
+                                clickerButton.textContent = "JK thats all you get!";
+                            };
+                            clickerButton.addEventListener("click", onButtonClick);
+                                
+                        </script>
 
                                   
                
