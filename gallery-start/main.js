@@ -6,18 +6,18 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['fall1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
+const images = ['fall1.jpg', `fall2.jpg`, `fall3.jpg`, `fall4.jpg`, `fall5.jpg`];
 
 
 
 /* Declaring the alternative text for each image file */
 
 const alts = {
-    'fall1.jpg': 'tree 1',
-    'pic2.jpg' : 'Rock that looks like a wave',
-    'pic3.jpg' : 'Purple and white pansies',
-    'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
-    'pic5.jpg' : 'Large moth on a leaf'
+    'fall1.jpg' : 'tree 1',
+    'fall2.jpg' : 'tree 2',
+    'fall3.jpg' : 'tree 3',
+    'fall4.jpg' : 'tree 4',
+    'fall5.jpg' : 'tree 5'
 }
 
 /* Looping through images */
