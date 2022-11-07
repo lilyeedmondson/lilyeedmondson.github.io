@@ -1,33 +1,17 @@
-window.addEventListener('onload', getQuote);
+const axios = require("axios");
 
-const quoteButton = document.querySelector('.new-quote');
-quoteButton.addEventListener('click', getQuote);
+const options = {
+  method: 'POST',
+  url: 'https://andruxnet-random-famous-quotes.p.rapidapi.com/',
+  params: {cat: 'movies', count: '10'},
+  headers: {
+    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+    'X-RapidAPI-Host': 'andruxnet-random-famous-quotes.p.rapidapi.com'
+  }
+};
 
-const endpoint = 'https://api.funtranslations.com/translate/yoda.json';
-
-async function getQuote() {
-    console.log('test click worked');
-    let text = await fetch(endpoint);
-    let response = await text.text();
-
-    let json_response = JSON.parse(response);
-    console.log (json_response);
-    console.log(json_response['message']);
-    //.then(text => text.text());
-    // .then(y=> myDisplay(y));
-    //console.log(text['message']);
-
-    displayQuote(json_response['message']);
-}
-
-function displayQuote(x){
-    //const quoteBox = document.querySelector('#js-quote-text');
-    // //console.log('display quote working');
-    
-
-   //const textMessage = document.createTextNode(x);
-   //quoteBox.appendChild(textMessage);
-    document.getElementById('js-quote-text').textContent = x;
-}
-
-getQuote();
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
