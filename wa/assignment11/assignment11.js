@@ -1,17 +1,7 @@
-const axios = require("axios");
+const divWithQuote = document.getElementById("insertQuoteHere");
 
-const options = {
-  method: 'POST',
-  url: 'https://andruxnet-random-famous-quotes.p.rapidapi.com/',
-  params: {cat: 'movies', count: '10'},
-  headers: {
-    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-    'X-RapidAPI-Host': 'andruxnet-random-famous-quotes.p.rapidapi.com'
-  }
+const getQuote = () => {
+  fetch("https://api.kanye.rest")
+    .then((response) => response.json())
+    .then((data) => (divWithQuote.innerHTML = data.quote));
 };
-
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
