@@ -13,8 +13,8 @@ function randomNumber(min, max) {
     
   }
   function random1() {
-    outputInt = randomNumber(0, 9);
-    output.textContent = outputInt;
+    output1Int = randomNumber(0, 9);
+    output1.textContent = output1Int;
 }
 
 function random2() {
