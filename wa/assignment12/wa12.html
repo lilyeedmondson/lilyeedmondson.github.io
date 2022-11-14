@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Worst Phone Number Generator</title>
+    <title>Best Phone Number Generator!</title>
 
     <link rel="stylesheet" href="wa12.css">
     <script defer src="wa12.js"></script>
 </head>
 <body>
     <div>
-        <p> please enter your phone number</p>
-        <p class="output">9999999999</p>
+        <p>Click 'random' until you see the first digit in your phone number. When you see it, click 'submit'. Continue until you see your correct phone number!</p>
+        <p id="output">0</p>
     </div>
     <form>
-        <!--input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number"> -->
-        <input class="minusButton" type="button" name="minusButton" value="-">
-        <input class="plusButton" type="button" name="plusButton" value="+">
-        <input class="resetButton" type="button" name="resetButton" value="Reset">
-        <input class="randomButton" type="button" name="randomButton" value="Random">
-        <input class="submitButton" type="button" name="submitButton" value="Submit">
+        <!-- <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number"> -->
+        <input class="minus-button" type="button" name="minus-button" value="-">
+        <input class="plus-button" type="button" name="plus-button" value="+">
+        <input class="reset-button" type="button" name="reset-button" value="Reset">
+        <input class="random-button" type="button" name="random-button" value="Random">
+        <input class="submit-button" type="button" name="submit-button" value="Submit">
         
     </form>
-    <div class="'slidecontainer">
-        <p>Enter your phone number</p>
-            <input type="range" min="0" max="9999999999" value="8888888888" class="slider" id="myRange">
-            <input class="sliderSubmitButton" type="button" name="sliderSubmitButton" value="Submit">
-    </div>
+    <div>
+        <p id="randomnum"></p>
+       
+        </div>
 </body>
 </html>
