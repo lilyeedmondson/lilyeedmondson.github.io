@@ -10,6 +10,8 @@ img {
   width: 300px;
   height: 400px;
 }
+
+
 @media only screen and (max-width: 700px) {
   img{
     height: 200px;
@@ -17,6 +19,7 @@ img {
 align-items: center;
   }
 }
+
 
 .homeB{
   display: flexbox;
@@ -64,6 +67,8 @@ align-items: center;
   display: flex;
   justify-content: center;
   text-align: right;
+  margin-left: 70px;
+  margin-right: 150px;
  
 
 }
@@ -83,7 +88,8 @@ align-items: center;
 /* personality html */
 
 .personalitymain{
-  display:flex
+  display:flex;
+  margin-left: 70px;
 
   
 }
@@ -93,6 +99,8 @@ align-items: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
   
 
 }
@@ -100,10 +108,30 @@ align-items: center;
 .personalitytop{
   display: flex;
   justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
 
   
 }
-   
+
+.personalitydescrip {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+/* My Fav Places */
+.favsomethingmain {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+/* SKi Mountains */
+
+.skibody {
+  margin-left: 70px;
+  margin-right: 70px;
+}
 
 
 /* nav bar */
@@ -112,7 +140,7 @@ nav {
   background-color: #6969B3;
   padding: 1em;
   position:sticky;
-  top:0
+  top:0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -128,6 +156,7 @@ nav ul {
 nav a {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #25171a;
+  font-size: larger;
   text-decoration: none;
   padding: .5em 1em;
 }
