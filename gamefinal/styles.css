@@ -1,0 +1,69 @@
+.body{
+    background-color: lavender
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 750px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: royalblue;
+    position:relative;
+    top: 150px;
+}
+.animatech{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    20%{top: 100px;}
+    50%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: lightgreen;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 750px;
+}
+.animateb{
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p,h1{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+h2{
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+h4{
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: darkblue;
+
+}
