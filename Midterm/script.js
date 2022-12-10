@@ -23,8 +23,8 @@ function dead(){
   btns.style.display="block";
 block.classList.remove("animateb");
   clearInterval(core);
-  console.log("dead");
-        //alert("Game Over. score: "+Math.floor(counter/100));
+  console.log("HAHA you lost!");
+        alert("HAHA you lost! Score: "+Math.floor(counter/100));
         var sb=document.getElementById('scorebest');
         if(sb.innerHTML< Math.floor(counter/100)){
           sb.innerHTML= Math.floor(counter/100);
