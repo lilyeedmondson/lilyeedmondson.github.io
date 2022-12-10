@@ -11,6 +11,125 @@ img {
   height: 400px;
 }
 
+.usImage {
+  display: absolute;
+  object-fit: cover;
+  width: 700px;
+  height: 450px;
+}
+
+.cImage {
+  display: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 450px;
+}
+
+.eImage {
+  display: absolute;
+  object-fit: cover;
+  width: 900px;
+  height: 450px;
+
+}
+
+.bcOne{
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+
+.bcTwo{
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+
+.ssOne{
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+
+.ssTwo{
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+
+.telleOne {
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px; 
+}
+
+.telleTwo{
+  display: absolute;
+  object-fit: cover;
+  width: 500px;
+  height: 350px; 
+}
+
+.pcOne{
+  display: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 350px; 
+}
+
+.pcTwo{
+  display: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 350px; 
+}
+
+.wpOne{
+  display: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 350px; 
+}
+
+.wpTwo{
+  display: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 350px; 
+}
+
+.yellowG{
+  display: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 350px; 
+}
+
+.yellowQ{
+  display: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 350px; 
+}
+
+.robinW{
+  display: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 350px; 
+}
+
+.ronaldR{
+  display: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 350px; 
+}
 
 @media only screen and (max-width: 700px) {
   img{
